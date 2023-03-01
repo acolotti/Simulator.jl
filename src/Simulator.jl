@@ -3,7 +3,7 @@ module Simulator
 import DifferentialEquations as DE
 import LinearAlgebra as LA
 
-import ..VSSystems as VS
+import VSSystems as VS
 
 export simulate
 
