@@ -1,7 +1,12 @@
 name = "Simulator"
 uuid = "f55a3cd6-7ad4-4283-8cb9-10d0c3f80013"
-authors = ["Alessandro Colotti <alessandro.colotti@ls2n.fr> and contributors"]
+authors = ["Alessandro Colotti and contributors"]
 version = "0.1.0"
+
+[deps]
+DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+VSSystems = "153bda20-02c3-486f-9572-3b440292a967"
 
 [compat]
 julia = "1"
